@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.cs">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel='stylesheet' type='text/css' media='screen'href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <title>DIPANSHU MISHRA</title>
+
+</head>
+<body>
+    
+                              <!--navbar + section start-->
+   <div class="header">
+    <div class="text-center"> 
+        <img class="center" src="ABVP_logo.png" alt="logo" >
+    </div>
+     <section class="header-section  " id="show1">
+        <h1 class=" animate__animated animate__fadeInDown mt-5" >CERTIFICATE</h1>
+        
+        <p class="animate__animated animate__fadeInDown font-weight-bold" style="word-spacing: 6px; animation-delay: 2s;">OF JOINING ABVP
+         </p>
+        
+         <div class="container">
+          <p2 class="animate__animated animate__fadeInDown p2" style="word-spacing: 6px; animation-delay: 2s; margin-top: 30px;">
+            This is to certify that Mr/Ms.<span id="result1"></span> has joined AKHIL BHARATIYA VIDARTHI PARISHAD on <span id="result2"></span>.<br>Thank you for showing your interest.
+          </p2> 
+
+          <p2 class="animate__animated animate__fadeInDown sign" style="word-spacing: 6px; animation-delay: 2s; color: #FFFFFF;">
+               <u> E SIGNATURE</u>
+          </p2> 
+         </div>
+
+      </section>
+  
+    </div>
+
+                                              <!--navbar + section end-->
+
+                                <!--//////////////////////////////////////////////-->
+
+                                <script>
+                                  document.getElementById("result1").innerHTML=localStorage.getItem("textvalue1");
+                                  document.getElementById("result2").innerHTML=localStorage.getItem("textvalue2");
+                              </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
